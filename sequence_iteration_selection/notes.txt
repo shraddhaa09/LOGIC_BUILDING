@@ -1,0 +1,11 @@
+10 -may 
+sequence ,iteration ,selection 
+in python the bool True and False (capital letter first)
+c doesnt support the bool values so we have to inculde the <stdbool.h> library
+the main function is the client 
+the helper functions are the servers 
+filter->throw u out of the task 
+updater->chaneg the values as per the need and performs the task
+the main goal must to to resue the helper function not the main function 
+signed->31 bit (+ve, - ve)
+unsigned->32 bit (only +ve)
