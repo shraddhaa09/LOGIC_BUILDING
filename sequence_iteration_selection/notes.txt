@@ -9,3 +9,37 @@ updater->chaneg the values as per the need and performs the task
 the main goal must to to resue the helper function not the main function 
 signed->31 bit (+ve, - ve)
 unsigned->32 bit (only +ve)
+
+
+---
+
+
+
+input twi types
+bufffer 
+loop->time compexilty
+ne malloc->space compexilty 
+boiler plate code
+in c bool datatype is not there
+naked function 
+
+24 may 2026
+fro the factors exculde the the factor itself and the 1 
+What return Actually Does
+
+return does two things:
+
+ends the current method
+optionally sends a value back
+
+So when this runs:
+
+return false;
+
+Java immediately leaves:
+
+CheckPrime()
+
+Entire function stops.
+
+Not just loop.
