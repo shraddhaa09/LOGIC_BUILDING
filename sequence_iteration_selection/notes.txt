@@ -43,3 +43,21 @@ CheckPrime()
 Entire function stops.
 
 Not just loop.
+
+reverse number 
+when there is 0 at last it is not preserved so for that =>
+int
+stores numeric values only.
+Mathematically:
+092=92
+Leading zeros are ignored in decimal integers.
+
+ r value -> resident value
+ iValue      // 11
+&iValue     // 100
+
+iPtr        // 100 (address of iValue)
+*iPtr       // 11
+
+&iPtr       // 200 (address of the pointer itself)
+never add \n in scanf
