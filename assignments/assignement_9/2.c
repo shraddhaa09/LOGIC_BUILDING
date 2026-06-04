@@ -1,9 +1,9 @@
 #include<stdio.h>
-int CountEven(int iNo)
+int CountOdd(int iNo)
 {   
     int count=0;
     while(iNo!=0){
-        if(iNo%2==0){
+        if(iNo%2!=0){
             count++;
         }
         iNo=iNo/10;
@@ -15,7 +15,7 @@ int main(){
     int iRet=0;
     printf("Enter number:");
     scanf("%d",&iValue);
-    iRet=CountEven(iValue);
+    iRet=CountOdd(iValue);
     printf("%d",iRet);
     return 0;
 }

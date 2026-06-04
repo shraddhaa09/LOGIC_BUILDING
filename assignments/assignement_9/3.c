@@ -1,21 +1,22 @@
 #include<stdio.h>
-int CountEven(int iNo)
-{   
+int CountRange(int iNo){
     int count=0;
+    int iDigit=0;
     while(iNo!=0){
-        if(iNo%2==0){
+        iDigit=iNo%10;
+        if(iDigit>3 && iDigit<7){
             count++;
         }
-        iNo=iNo/10;
+        iNo=iNo/10; 
     }
     return count;
 }
 int main(){
     int iValue=0;
     int iRet=0;
-    printf("Enter number:");
+    printf("Enter number");
     scanf("%d",&iValue);
-    iRet=CountEven(iValue);
+    iRet=CountRange(iValue);
     printf("%d",iRet);
     return 0;
 }
