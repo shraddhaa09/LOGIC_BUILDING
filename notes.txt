@@ -61,3 +61,11 @@ iPtr        // 100 (address of iValue)
 
 &iPtr       // 200 (address of the pointer itself)
 never add \n in scanf
+
+in c ->8 digit one number 
+in python 100 digit one number
+
+
+in java in the function is is by default call by reference 
+delete-> deallocate the memory of the first element only 
+delete[]->deallocate the memory of the complete array 

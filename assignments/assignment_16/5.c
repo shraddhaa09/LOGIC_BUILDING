@@ -17,7 +17,6 @@ void Digitssum(int Arr[],int iLength){
         iSum=0;
     }
 }
- 
 int main(){
     int iSize=0,iRet=0,iCnt=0,iValue=0;
     int *p=NULL;
