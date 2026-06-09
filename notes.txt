@@ -69,3 +69,4 @@ in python 100 digit one number
 in java in the function is is by default call by reference 
 delete-> deallocate the memory of the first element only 
 delete[]->deallocate the memory of the complete array 
+so
