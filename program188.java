@@ -1,18 +1,21 @@
-//Input : 7
-// output : a b c d e f g
+//Input : 11
+// output : * * * # # # * * * # # 
 
 import java.util.Scanner;
 
-public class program181 {
+public class program188 {
 
     public static void Display(int iNo) {
         int iCnt=0;
-        char ch='\0';
-        int count=0;// here i was trying to print only the 26 alphabates
-        for(iCnt=1,ch=97;iCnt<=iNo;iCnt++,ch++){
-            whi
-            System.out.print(ch+" \t");
-            count++;
+        int iCount=1;
+        for(iCnt=1;iCnt<=iNo;iCnt++){
+            if(iCount==3){
+                iCount=0;
+            }
+            while(iCount!=3){
+            System.out.print("* \t");
+            iCount++;
+            }
         }
         System.out.println();
     }
