@@ -70,3 +70,7 @@ in java in the function is is by default call by reference
 delete-> deallocate the memory of the first element only 
 delete[]->deallocate the memory of the complete array 
 so and this is what we do 
+
+//a->97
+A->65
+0->48
