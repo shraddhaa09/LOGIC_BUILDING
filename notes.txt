@@ -74,3 +74,5 @@ so and this is what we do
 //a->97
 A->65
 0->48
+
+//("%%") in c we cant print the % so we use this to print % (as % in c is format specifier)

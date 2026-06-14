@@ -27,7 +27,7 @@ public class program196 {
             }
             System.out.println();
         }
-        
+    }
     }
     static void main(String A[]) {
         Scanner sobj=new Scanner(System.in);
