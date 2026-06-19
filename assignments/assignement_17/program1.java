@@ -11,10 +11,10 @@ class Logic
         System.out.println("sum of digit = "+iSum);
     }
 }
-class Program1
+class program1
 {
     public static void main(String[] args) {
         Logic obj = new Logic();
-        obj.sumofDigits(1234);
+        obj.sumofDigits(123);
     }
 }
