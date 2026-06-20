@@ -1,3 +1,5 @@
+package assignments.assigement_18;
+
 class Logic{
     void printOddNumbers(int n){
         System.out.println("Odd numbers from 1 to "+n+" are:");

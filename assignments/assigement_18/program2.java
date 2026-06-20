@@ -1,3 +1,5 @@
+package assignments.assigement_18;
+
 class Logic{
     void printEvenNumbers(int n){
         System.out.println("Even numbers from 1 to "+n+" are:");
