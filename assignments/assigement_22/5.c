@@ -1,8 +1,8 @@
 #include<stdio.h>
 void Pattern(int iNo){
     int i=0;
-    for(i=iNo;i>0;i--){
-        printf("%d # ",i);
+    for(i=1;i<=iNo;i++){
+        printf("%d ",i*2);
     }
 
 }
