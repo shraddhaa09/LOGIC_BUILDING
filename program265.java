@@ -9,7 +9,7 @@ public class program265 {
         Arr=sobj.nextLine();
         System.out.println("Length of string is:"+Arr.length());//lenght is in built
 
-        char str[]=Arr.toCharArray();//string to array conversion 
+        char str[]=Arr.toCharArray();//string to array conversion without \0
         int i=0;
         for(i=0;i<Arr.length();i++){
             System.out.println(str[i]);//charAt is heavy

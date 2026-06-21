@@ -75,8 +75,14 @@ so and this is what we do
 A->65
 0->48
 
-//("%%") in c we cant print the % so we use this to print % (as % in c is format specifier)
+//("%%") in c we cant print  % so we use this to print % (as % in c is format specifier)
 
 -java
 length in arrray is property
 length() for string method
+
+string is the topic which is different in all languags
+charAt()is heavy 
+toCharArray()
+
+custom lib ->C:\Users\hp\OneDrive\myspace\logic_building\StringX.java
