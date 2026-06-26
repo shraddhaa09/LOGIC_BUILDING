@@ -86,3 +86,18 @@ charAt()is heavy
 toCharArray()
 
 custom lib ->C:\Users\hp\OneDrive\myspace\logic_building\StringX.java
+
+-endien ->big end ,little end(egg example)
+
+-numbering system->binaray,decimal ,hex,oct (not much used used for embeding)
+
+-this both are different 
+~->unary 
+!->not 
+
+-byte->nibble->bits
+
+-BIT->Binary digIT(BIT)
+
+website->penjee
+
