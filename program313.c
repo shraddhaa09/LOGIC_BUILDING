@@ -3,7 +3,7 @@
 typedef unsigned int UINT;
 int main(){
     UINT iNo=0;
-    UINT Mask=64;
+    UINT Mask=0x00010000;//hexadecimal
     UINT iAns=0;
 
     printf("Enter number :\n");
@@ -11,10 +11,10 @@ int main(){
 
     iAns=iNo & Mask;
     if(iAns==Mask){
-        printf("7th bit is ON\n");
+        printf("17th bit is ON\n");
     }
     else{
-        printf("7th bit is OFF\n");
+        printf("17th bit is OFF\n");
     }
     
 
