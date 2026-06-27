@@ -1,11 +1,11 @@
 #include<stdio.h>
 typedef unsigned int UINT;
 
-//Position 9 and 17
+//Position 12 and 23
 
 int main(){
     
-    UINT iMask=0x00010100;
+    UINT iMask=0x00400800;
     UINT iNo=0;
     UINT iResult=0;
 
