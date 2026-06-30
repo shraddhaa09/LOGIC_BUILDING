@@ -101,3 +101,4 @@ custom lib ->C:\Users\hp\OneDrive\myspace\logic_building\StringX.java
 
 website->penjee,devtools cal
 
+-No. C supports only pass by value. When we want a function to modify the original variable, we pass its address using a pointer. The pointer is still passed by value, but it lets the function access and modify the original data. This is often called "pass by address," not true pass by reference.
