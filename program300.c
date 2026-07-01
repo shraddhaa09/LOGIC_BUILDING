@@ -4,11 +4,10 @@ void strrevX(char *str){
     char *end=NULL;
     char temp='\0';
     
-    start=str;
     while(*str!='\0'){
         str++;
     }
-    str--;
+    str--;//while the loop ends the str is pointing to the null charachter not the lat character so we decrement it 
     end=str;
     while(start<end){
         temp=*start;

@@ -3,13 +3,13 @@
 
 int ChkChar(char *str,char ch){
     int i=0;
-
+    int lastindex=-1;
     for(i=0;i<strlen(str);i++){
     if(str[i]==ch){
-        return i;
+        lastindex=i;
     }
 }
- return -1;
+ return lastindex;
 }
 int main(){
     char arr[20];
