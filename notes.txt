@@ -1,4 +1,4 @@
-**First - Array is stored in memory**
+7**First - Array is stored in memory**
 - You create array - Java finds space in memory
 - Memory gives a starting address
 4 Let's say address = 100
@@ -164,3 +164,22 @@ Same logic in memory
 @o Wrong - it's a performance decision
 4 0 index =faster memory calculation
 Every language does this for same reason
+E JDK VS JRE Vs JVM Java Interview Favorite
+
+If you remember just one line, remember this:
+
+JVM= Runs Java bytecode
+V JRE = JVM+ libraries needed to run Java apps
+V JDK = JRE+ developer tools to write/compile Java
+code
+
+Simple way to remember
+
+* JVM - executes .class files
+* JRE runs Java programs
+* JDK -+ develops + runs Java programs
+
+Formula:
+
+JDK = JRE + Development Tools
+JRE = JVM+ Core Libraries
