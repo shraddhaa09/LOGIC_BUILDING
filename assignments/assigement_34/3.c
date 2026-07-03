@@ -1,7 +1,12 @@
 #include<stdio.h>
 void StrCpyX(char *src,char *dest){
     while(*src!='\0'){
-        *dest=*src;
+        if((*src>='A') && (*src<='Z')){
+            *dest=*src;
+            src++;
+            dest++;
+            
+        }
         src++;
         dest++;
     }
@@ -9,7 +14,7 @@ void StrCpyX(char *src,char *dest){
 }
 int main(){
 
-    char arr[30]="marvellous multi os";
+    char arr[30]="Marvellous Oulti os";
     char brr[30];
 
     StrCpyX(arr,brr);
