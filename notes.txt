@@ -183,3 +183,7 @@ Formula:
 
 JDK = JRE + Development Tools
 JRE = JVM+ Core Libraries
+
+
+&->virtual address
+abd the actual addressis the physical address which is not given by any of the machine 
