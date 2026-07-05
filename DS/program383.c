@@ -69,7 +69,20 @@ void InsertLast(PPNODE first,int iNo){
     }
     
 }
-void InsertatPos(PPNODE first,int iNo,int iPos){
+void InsertPos(PPNODE first,int iNo,int iPos){
+    int iCount=0;
+    iCount=Count(*first);
+    if((iPos<1)||(iPos>iCount+1)){
+        printf("Invalid Position");
+        return ;
+    }
+    if(iPos==1){
+        InsertFirst(first,iNo);
+    }
+    else if(iPos==iCount+1){
+        InsertLast(first,iNo);
+    }
+
     
 }
 void DeleteFirst(PPNODE first){
@@ -110,7 +123,18 @@ void DeleteLast(PPNODE first){
     
 }
 void DeleteatPos(PPNODE first,int iPos){
-    
+    int iCount=0;
+    iCount=Count(*first);
+    if((iPos<1)||(iPos>iCount)){//note->+1 removed
+        printf("Invalid Position");
+        return ;
+    }
+    if(iPos==1){
+        DeleteFirst(first);
+    }
+    else if(iPos==iCount){
+        DeleteLast(first);
+    }
 }
 int main(){
     PNODE head=NULL;
