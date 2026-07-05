@@ -1,9 +1,6 @@
 #include<stdio.h>
 #pragma pack(1)
 
-//Linked List
-//head(100)->obj1(11,200)(&100)->obj2(21,300)(&200)->obj3(51,NULL)(&300);
-
 struct node
 {
     int data;
@@ -35,7 +32,6 @@ int main(){
     obj3.data=51;
     obj3.next=NULL;
 
-    printf("the number of the nodes %d",iRet);
     return 0;
 
 }
