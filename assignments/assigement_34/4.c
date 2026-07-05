@@ -1,7 +1,7 @@
 #include<stdio.h>
 void StrCpyX(char *src,char *dest){
     while(*src!='\0'){
-        if((*src>='A') && (*src<='Z')){
+        if((*src>='a') && (*src<='z')){
             *dest=*src;
             dest++;            
         }
