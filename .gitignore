@@ -1,17 +1,55 @@
-# Executables
-*.exe
-*.out
-
-# Object files
+```gitignore
+# ==========================
+# C / C++ Compiled Files
+# ==========================
 *.o
 *.obj
+*.exe
+*.out
+*.dll
+*.so
+*.a
+*.lib
 
-# Debug files
+# ==========================
+# Java Compiled Files
+# ==========================
+*.class
+*.jar
+*.war
+*.ear
+
+# ==========================
+# Logs
+# ==========================
 *.log
 
-# VS Code
-.vscode/
-
-# Build folders
+# ==========================
+# Build Directories
+# ==========================
 build/
 bin/
+out/
+target/
+
+# ==========================
+# IDE Settings
+# ==========================
+.vscode/
+.idea/
+*.iml
+
+# ==========================
+# OS Generated Files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Temporary Files
+# ==========================
+*.tmp
+*.temp
+*.bak
+*.swp
+```
