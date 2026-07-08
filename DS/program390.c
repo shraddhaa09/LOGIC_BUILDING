@@ -1,0 +1,110 @@
+#include<stdio.h>
+#include<stdlib.h>
+#pragma pack(1)
+//$->is new line
+struct node{
+    int data;
+    struct node *next;
+    struct node *prev;//$
+};
+
+typedef struct node NODE;
+typedef struct node* PNODE;
+typedef struct node** PPNODE;
+
+void display(PNODE first){
+    printf("\nNULL <=>");
+    while (first!=NULL)
+    {
+        printf("| %d | <=> ",first->data);
+        first=first->next;
+    }
+    printf("NULL\n");
+
+}
+
+int count(PNODE first){
+    int iCount=0;
+    while (first!=NULL)
+    {
+        iCount++;
+        first=first->next;
+    }
+    
+    return iCount;
+}
+
+void insertfirst(PPNODE first,int iNo){
+    PNODE newn=NULL;
+    newn=(PNODE)malloc(sizeof(NODE));
+
+    newn->data=iNo;
+    newn->next=NULL;
+    newn->prev=NULL;
+
+    if(NULL == *first){
+        *first=newn;
+    }
+    else{
+        newn->next=*first;
+        (*first)->prev=newn;//$
+        *first=newn;
+    }
+
+}
+void insertlast(PPNODE first,int iNo){
+    PNODE newn=NULL;
+    PNODE temp=NULL;
+
+    newn=(PNODE)malloc(sizeof(NODE));
+
+    newn->data=iNo;
+    newn->next=NULL;
+    newn->prev=NULL;
+
+    if(NULL==*first){
+        *first=newn;
+    }
+    else{
+        temp=*first;
+        while(temp->next!=NULL){
+            temp=temp->next;
+        }
+        temp->next=newn;
+        newn->prev=temp;
+    }
+    
+}
+void insertatPos(PNODE first,int iNo,int iPos){
+    
+}
+void deletefirst(PNODE first){
+
+}
+void deletelast(PNODE first){
+    
+    
+}
+void deleteatPos(PNODE first,int iPos){
+    
+}
+
+int main(){
+    PNODE head=NULL;
+    int iRet=0;
+    insertfirst(&head,51);
+    insertfirst(&head,21);
+    insertfirst(&head,11);
+
+    insertlast(&head,101);
+    insertlast(&head,111);
+    insertlast(&head,121);
+
+    display(head);
+
+    iRet=count(head);
+
+    printf("Number of the elements are %d\n",iRet);
+
+    return 0;
+}
