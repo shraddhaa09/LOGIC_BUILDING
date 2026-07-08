@@ -68,6 +68,13 @@ As the learning journey continues, additional concepts, implementations, and pro
 The repository is organized by topic to make navigation simple and to reflect the progression of concepts being learned. Folder names and content may evolve as new topics and projects are added.
 
 ---
+## Custom Libraries
+
+In addition to standalone programs, this repository includes reusable utility libraries designed to simplify common programming tasks and encourage clean, modular code.
+
+The collection of libraries will continue to expand alongside new concepts, algorithms, and data structure implementations throughout this learning journey.
+
+---
 
 ## Learning Approach
 
