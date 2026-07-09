@@ -1,0 +1,71 @@
+#include<iostream>
+using namespace std;
+#pragma pack(1)
+struct node
+{
+    int data;
+    struct node *next; 
+    struct node *prev;
+    
+};
+
+typedef struct node NODE;
+typedef struct node* PNODE;
+
+class DoublyLL
+{
+    private:
+        PNODE first;
+        int iCount;
+
+    public:
+        DoublyLL();
+
+        void Display();
+        int count();
+        void InsertFirst(int iNo);
+        void InsertLast(int iNo);
+        void InsertAtPos(int iNo,int iPos);
+        void DeleteFirst();
+        void DeleteLast();
+        void DeleteAtPos();
+
+};
+
+DoublyLL:: DoublyLL(){
+
+    cout<<"Inside constructor\n";
+    this->first=NULL;
+    this->iCount=0;
+}
+
+void DoublyLL :: Display(){
+
+}
+
+int DoublyLL::count(){
+    return this->iCount;
+}
+void DoublyLL :: InsertFirst(int iNo){
+
+}
+void DoublyLL :: InsertLast(int iNo){
+
+}
+void DoublyLL :: InsertAtPos(int iNo,int iPos){
+
+}
+void DoublyLL :: DeleteFirst(){
+
+}
+void DoublyLL :: DeleteLast(){
+
+}
+void DoublyLL :: DeleteAtPos(){
+
+}
+
+int main(){
+    DoublyLL dobj;
+    return 0;
+}
