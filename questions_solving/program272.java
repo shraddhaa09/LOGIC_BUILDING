@@ -1,0 +1,48 @@
+import java.util.*;
+class StringX{
+    public int CountCaptial(String str){
+        int i=0;
+        int count=0;
+        for(i=0;i<str.length();i++)
+        {
+            if(str.charAt(i)>='A' && str.charAt(i)<='Z'){
+            count++;
+            }
+        }
+        return count;
+    }
+    public int CountSmall(String str){
+        int i=0;
+        int count=0;
+
+        char Arr[]=str.toCharArray();
+        for(i=0;i<Arr.length;i++)
+        {
+            if(Arr[i]>='a' && Arr[i]<='z'){
+            count++;
+            }
+        }
+        return count;
+    }
+}
+
+class program272{
+    public static void main(String[] A)
+    {
+        Scanner sobj=new Scanner(System.in);
+        String data=null;
+        StringX strobj=new StringX();
+        int iRet=0;
+
+        System.out.println("Enter string : ");
+        data=sobj.nextLine();
+
+        iRet=strobj.CountCaptial(data);
+        System.out.println("Number of capital characters: "+iRet);
+
+        iRet=strobj.CountSmall(data);
+        System.out.println("Number of small characters: "+iRet);
+        
+
+    }
+}
