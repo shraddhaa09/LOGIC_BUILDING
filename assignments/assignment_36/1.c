@@ -1,23 +1,27 @@
 #include<stdio.h>
+typedef int BOOL;
 typedef unsigned int UINT;
-int countone(UINT iNo){
-    int iCount=0;
-    while(iNo!=0){
-        if((iNo & 1)==1){
-            iCount++;
-        }
-        iNo=iNo>>1;
-    }
-    return iCount;
+
+#define TRUE 1
+#define FALSE 0
+
+BOOL ChkBit(UINT iNo){
+    UINT Mask=0X40;
+    UINT iAns=0;
+
+    iAns=iNo ^ Mask;
+    return iAns;
 
 }
 int main(){
-    int iNo;
-    int iRet=0;
-    printf("Enter the number");
+    UINT iNo=0;
+    BOOL iAns=FALSE;
+    printf("Enter number :\n");
     scanf("%u",&iNo);
-    iRet=countone(iNo);
-    printf("%u",iRet);
 
-     return 0;
+    iAns=ChkBit(iNo);
+    printf("%u\n",iAns);
+    
+
+    return 0;
 }
