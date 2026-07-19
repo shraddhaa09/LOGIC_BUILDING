@@ -7,7 +7,7 @@ void Display(int iNo){
         iDigit=iNo%10;
         printf("%d  ",iDigit);
         iNo=iNo/10;
-        Display(iNo);
+        Display(iNo);//Tail recursion
     }
 }
 int main(){

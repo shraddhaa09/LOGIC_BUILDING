@@ -9,6 +9,8 @@ void Display(int iNo){
         iNo=iNo/10;
         Display(iNo);
     }
+
+
 }
 int main(){
     int iValue=0;

@@ -1,0 +1,1 @@
+//generic programm for the stack + queue+ all 4 linked list 

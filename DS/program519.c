@@ -1,21 +1,18 @@
 #include<stdio.h>
 
-
 void Display(int iNo){
-    int iDigit=0;
     if(iNo!=0){
-        iDigit=iNo%10;
-        printf("%d  ",iDigit);
-        iNo=iNo/10;
-        Display(iNo);
+      printf("%d\n",iNo);  
+      Display(--iNo);// predecrement 
     }
 }
+
 int main(){
     int iValue=0;
-    printf("Enter number:\n");
+    printf("Enter frequency:\n");
     scanf("%d",&iValue);
-
     Display(iValue);
 
+    printf("End of main\n");
     return 0;
 }
