@@ -15,18 +15,18 @@ typedef struct node** PPNODE;
 
 void Display(PNODE first)
 {
-        if(first != NULL){
+        while(first != NULL){
             printf("| %d |->",first->data);
             first=first->next;
-            Display(first);
         }
+        printf("NULL\n");
+
 }
 int count(PNODE first){
-    static int iCount=0;
-    if(first!=NULL){
+    int iCount=0;
+    while(first!=NULL){
         iCount++;
         first=first->next;
-        count(first);
     }
     return iCount;
 }
@@ -57,6 +57,6 @@ int main(){
 
     Display(head);
     iRet=count(head);
-    printf("\nNumber of the nodes are %d",iRet);
+    printf("Number of the nodes are %d",iRet);
     return 0;
 }

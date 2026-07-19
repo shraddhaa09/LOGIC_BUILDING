@@ -22,11 +22,10 @@ void Display(PNODE first)
         }
 }
 int count(PNODE first){
-    static int iCount=0;
-    if(first!=NULL){
+    int iCount=0;
+    while(first!=NULL){
         iCount++;
         first=first->next;
-        count(first);
     }
     return iCount;
 }

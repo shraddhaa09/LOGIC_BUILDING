@@ -16,9 +16,9 @@ typedef struct node** PPNODE;
 void Display(PNODE first)
 {
         if(first != NULL){
+            Display(first->next);
             printf("| %d |->",first->data);
-            first=first->next;
-            Display(first);
+            
         }
 }
 int count(PNODE first){

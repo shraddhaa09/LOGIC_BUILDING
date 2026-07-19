@@ -17,8 +17,7 @@ void Display(PNODE first)
 {
         if(first != NULL){
             printf("| %d |->",first->data);
-            first=first->next;
-            Display(first);
+            Display(first->next);
         }
 }
 int count(PNODE first){
