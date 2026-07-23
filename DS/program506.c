@@ -1,5 +1,5 @@
 #include<stdio.h>
-//stack frame foramed 
+// Stack frames are formed due to recursion
 void Display(){
     static int i=1;
       printf("Jay ganesh.. %d\n",i);  

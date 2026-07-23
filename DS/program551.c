@@ -58,5 +58,7 @@ int main(){
     Display(head);
     iRet=count(head);
     printf("\nNumber of the nodes are %d",iRet);
+    iRet=count(head);
+    printf("\nNumber of the nodes are %d",iRet);
     return 0;
 }

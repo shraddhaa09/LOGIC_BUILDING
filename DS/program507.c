@@ -1,5 +1,6 @@
 #include<stdio.h>
-//iteration and only two stack frame formed a
+//iteration Only 2 stack frames (main + Display)
+//New stack frame for every recursive call in resursion 
 void Display(){
     int i=1;
     while(1){

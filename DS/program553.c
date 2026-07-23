@@ -17,7 +17,7 @@ void Display(PNODE first)
 {
         if(first != NULL){
             Display(first->next);
-            printf("| %d |->",first->data);
+            printf("| %d |->",first->data);//reverse
             
         }
 }
