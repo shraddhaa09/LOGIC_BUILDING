@@ -193,3 +193,5 @@ we can
 file handle : 1->input,
 2->output,
 3->error
+
+there is no data typt in python 
