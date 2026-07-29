@@ -195,3 +195,30 @@ file handle : 1->input,
 3->error
 
 there is no data typt in python 
+
+public class Test {
+    public static void main(String[] args) {
+        String s1 = "Java";
+        String s2 = "Java";
+        String s3 = new String("Java");
+
+        System.out.println(s1 == s2);
+        System.out.println(s1 == s3);
+        System.out.println(s1.equals(s3));
+    }
+}
+The actual output is:
+
+true
+false
+true
+
+So the correct option is B.
+
+Why?
+s1 == s2 → true
+Both refer to the same pooled string object.
+s1 == s3 → false
+new String("Java") creates a new object on the heap.
+s1.equals(s3) → true
+equals() compares the contents of the strings, not their references.
