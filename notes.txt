@@ -227,4 +227,10 @@ hdd block
 ram page
 
 remove and 
-unlink->system call
+unlink->system callCharacter Array: An array that stores characters. It may or may not end with the null character ('\0').
+String: A character array that always ends with the null character ('\0').
+char password[] = "abc123";      // String ✅
+char answer = 'Y';               // Character ✅
+char choices[] = {'A','B','C'};  // Character array ✅
+char fruit[] = "Apple";          // String ✅
+char digits[] = {'1','2','3'};   // Character array ✅
