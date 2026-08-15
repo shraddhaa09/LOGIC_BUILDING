@@ -1,0 +1,22 @@
+get()
+put()
+keyset()
+containskey()
+size()
+super()
+
+
+
+
+
+
+
+///notes java
+//v.v.v.imp
+//both are not in sequence
+//in java hashmap is non-synchronized and not thread safe
+//hashtable is synchronized thread safe
+//in keyword this is for only but this is for each loop at time of  exceution 
+//in php we write for each as keyword 
+jacked array
+
