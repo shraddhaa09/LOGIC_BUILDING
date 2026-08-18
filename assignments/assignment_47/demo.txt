@@ -1,0 +1,9 @@
+File name : 1.c
+File size : 5 bytes
+hello
+File name : demo.txt
+File size : 8 bytes
+shraddha
+File name : shraddha.java
+File size : 19 bytes
+import java.util.*;
