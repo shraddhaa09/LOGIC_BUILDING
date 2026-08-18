@@ -20,3 +20,12 @@ super()
 //in php we write for each as keyword 
 jacked array
 
+// strong number
+// unsigned int in java
+long
+amstrong number =145->1^3+4^3+5^#
+                =1646=1^4+6^4+4^4+6^4
+class wrapper
+String str=String.valueOf(iNo);-> number to string
+harshad number niven
+array list 
