@@ -1,0 +1,40 @@
+//5!
+
+//1*2*3*4*5
+
+import java.io.*;
+class program809{
+    public static void main(String A[]) throws Exception{
+        int iNo=0;
+        long iFact=0;
+
+        BufferedReader bobj=new BufferedReader(new InputStreamReader(System.in));
+
+        System.out.println("Enter Number:");
+        iNo= Integer.parseInt(bobj.readLine());
+
+        iFact=1;
+        int iTemp=0,iDigit=0;
+        long iSum=0;
+
+        iTemp=iNo;
+
+        while(iNo!=0){
+            iDigit=iNo%10;
+                while(iDigit!=0){//ISSUE
+                    iFact=iFact*iNo;
+                    iDigit--;
+                }
+            iSum=iSum+iFact;
+            iNo=iNo/10;
+        }
+
+        if(iSum==iTemp){
+            System.out.println("It is  a strong number");
+        }
+        else{
+            System.out.println("It is not a strong number");
+        }
+        
+    }
+}
