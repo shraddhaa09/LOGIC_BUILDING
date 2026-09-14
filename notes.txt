@@ -1,4 +1,4 @@
-7**First - Array is stored in memory**
+hello 7**First - Array is stored in memory**
 - You create array - Java finds space in memory
 - Memory gives a starting address
 4 Let's say address = 100
