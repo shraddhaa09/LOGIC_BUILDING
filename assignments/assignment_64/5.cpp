@@ -23,10 +23,6 @@ public:
         return marks;
     }
 
-    string getName(){
-        return name;
-    }
-
     void display(){
         cout << name << " -> " << marks << endl;
     }
@@ -50,14 +46,7 @@ int main(){
                 s[i] = s[j];
                 s[j] = temp;
             }
-            else if(s[i].getMarks()==s[j].getMarks()){
-               if(s[i].getName() > s[j].getName()){
-
-                    student temp = s[i];
-                    s[i] = s[j];
-                    s[j] = temp;
-                } 
-            }
+            else if(s[i].getMarks()==s[j].getMarks)
         }
     }
 
