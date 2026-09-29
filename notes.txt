@@ -124,6 +124,8 @@ custom lib ->C:\Users\hp\OneDrive\myspace\logic_building\StringX.java
 -this both are different 
 ~->unary 
 !->not 
+ 
+ next
 
 -byte->nibble->bits
 
