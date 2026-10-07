@@ -1207,14 +1207,14 @@ class program1017
         //
         /////////////////////////////////////////////////////////
 
-        floor2.addParkingSpot(new BikeSpot(101));
-        floor2.addParkingSpot(new BikeSpot(102));
+        floor2.addParkingSpot(new BikeSpot(201));
+        floor2.addParkingSpot(new BikeSpot(202));
 
-        floor2.addParkingSpot(new CarSpot(103));
-        floor2.addParkingSpot(new CarSpot(104));
+        floor2.addParkingSpot(new CarSpot(203));
+        floor2.addParkingSpot(new CarSpot(204));
 
-        floor2.addParkingSpot(new TruckSpot(105));
-        floor2.addParkingSpot(new TruckSpot(106));
+        floor2.addParkingSpot(new TruckSpot(205));
+        floor2.addParkingSpot(new TruckSpot(206));
 
         /////////////////////////////////////////////////////////
         // 
@@ -1369,7 +1369,7 @@ class program1017
 
                         case 4://Display Parking Lot
                             {
-                                parkingLot.displayParkingLot();
+                                parkingLot.disp+layParkingLot();
                                 break;
                             }//End of case 4
 
