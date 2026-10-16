@@ -55,6 +55,6 @@ int main() {
     int result = s.wateringPlants(plants, capacity);
 
     cout << "Steps needed: " << result << endl;
-
+    cout << "Steps needed: " << result << endl;
     return 0;
 }
